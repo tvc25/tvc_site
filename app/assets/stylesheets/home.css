@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  font-family: 'Apercu Regular', sans-serif;
+  color: white;
+}
+
+.container {
+  width: 75%;
+  text-align: center;
+  margin:0 auto;
+}
+
+h2{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.nav-link{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1%;
+}
+
+nav {
+  text-align: center;
+}
+
+.homepage-image{
+  width:50%;
+  height:50%;
+  margin:0 auto;
+}

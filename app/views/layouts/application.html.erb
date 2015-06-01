@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TOBIA CASSANDRO</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+
+<body class="<%= params[:action]%>"> 
+<h1>TOBIA CASSANDRO</h1>
+
+<nav>
+<!-- LINK_TO HELPER, first argument is what you see displayed in the browser, the second argument the helper (look in rake routes!) that specifies the corresponding controller and action -->
+<li> <%= link_to('HOME',root_path, class: 'nav-link')%> </li>
+<li> <%= link_to('ABOUT',about_path, class: 'nav-link')%> </li>
+<li> <%= link_to('INTERESTS',interests_path, class: 'nav-link')%> </li>
+<li> <%= link_to('MUSIC',music_path, class: 'nav-link')%> </li>
+<li> <%= link_to('WORK EXPERIENCE',work_path, class: 'nav-link')%> </li>
+<li> <%= link_to('FOOTBALL TEAM',football_path, class: 'nav-link')%> </li>
+
+</nav>
+
+<%= yield %>
+
+</body>
+</html>
