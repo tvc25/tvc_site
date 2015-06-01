@@ -2,10 +2,9 @@ Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
   root 'home#home_page'
-  get '/home', to: 'home#home_page'
+  get '/home_page', to: 'home#home_page'
   get '/about', to: 'home#about'
   get '/interests', to: 'home#interests'
-  get '/football', to: 'home#football'
   get '/music', to: 'home#music'
   get '/work', to: 'home#work'
 

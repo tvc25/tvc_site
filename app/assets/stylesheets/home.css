@@ -1,40 +1,84 @@
 body {
-  background-color: black;
-  font-family: 'Apercu Regular', sans-serif;
-  color: white;
+  background-color: white;
+  font-family: 'San Francisco Display', sans-serif;
+  color: black;
 }
 
 .container {
-  width: 75%;
+  width: 60%;
+  height: 60%;
   text-align: center;
   margin:0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 75px;
+  font-family: 'Menlo';
 }
 
 h2{
   text-align: center;
 }
 
-h1{
-  text-align: center;
-}
-
 .nav-link{
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-}
-li {
   display: inline-block;
   text-decoration: none;
-  padding: 1%;
-}
-
-nav {
   text-align: center;
 }
 
-.homepage-image{
-  width:50%;
-  height:50%;
+li {
+  display: inline-block;
+  padding: 1%;
+  text-align: center;
+}
+
+p {
+  font-size: 12px;
+  padding: 1px;
+  text-align: center;
+
+}
+
+.about {
+  width: 75%;
+  text-align: center;
   margin:0 auto;
+}
+
+.home_page {
+  width: 75%;
+  text-align: center;
+  margin:0 auto;
+  background-image: url("redback.jpg");}
+
+.interests {
+  width: 75%;
+  text-align: center;
+  margin:0 auto;
+}
+
+.football {
+  width: 75%;
+  text-align: center;
+  margin:0 auto;
+}
+
+.work {
+  width: 75%;
+  text-align: center;
+  margin:0 auto;
+}
+
+.music {
+  width: 75%;
+  text-align: center;
+  margin:0 auto;
+}
+
+.about-me {
+  height: 25%;
+  width: 25%;
+  margin:0 auto;
+  background-color: 
 }

@@ -1,7 +1,6 @@
 class HomeController < ApplicationController
-  def about_me
-      @email = "tobiacassandro@gmail.com"
-      @address = "17 Woronzow Road, London, NW8 6BA"
+  def about
+   
   end 
   
   def work_experience
@@ -12,10 +11,11 @@ class HomeController < ApplicationController
   
   def music
   end
-  
-  def football_team
-  end
 
   def home_page
+      @name = "Tobia Cassandro"
+      @dob = "14.02.1982"
+      @email = "tobiacassandro@gmail.com"
+      @address = "17 Woronzow Road, London, NW8 6BA"
   end
 end
