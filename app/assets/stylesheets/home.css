@@ -34,19 +34,20 @@ li {
 }
 
 p {
-  font-size: 12px;
+  font-size: 14px;
   padding: 1px;
   text-align: center;
 
 }
 
-.about {
+.home_page {
   width: 75%;
   text-align: center;
   margin:0 auto;
+  background-image: url("blue.jpg");
 }
 
-.home_page {
+.about {
   width: 75%;
   text-align: center;
   margin:0 auto;
@@ -56,29 +57,45 @@ p {
   width: 75%;
   text-align: center;
   margin:0 auto;
-}
-
-.football {
-  width: 75%;
-  text-align: center;
-  margin:0 auto;
+  background-image: url("green.jpg");
 }
 
 .work {
-  width: 75%;
+  width: 55%;
   text-align: center;
   margin:0 auto;
+  background-image: url("foggy.jpg");
+  color: black;
 }
 
 .music {
   width: 75%;
   text-align: center;
   margin:0 auto;
+  background-image: url("blur.jpg");
 }
 
 .about-me {
-  height: 25%;
-  width: 25%;
+  height: 50%;
+  width: 50%;
   margin:0 auto;
-  background-color: 
+}
+
+.about{
+  font-family: "Droid Sans";
+}
+.name {
+  color: gray;
+  font-size: 25px;
+}
+
+.blink {
+  color: #d88;
+  font-size: 1.5em;
+  animation: blink-anim 1s ease 0s infinite alternate;
+}
+
+@keyframes blink-anim {
+  from { opacity: 1; }
+  to { opacity: .3; }
 }
